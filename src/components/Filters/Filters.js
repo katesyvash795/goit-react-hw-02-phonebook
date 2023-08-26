@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Filter = ({ filter, onChange }) => {
+export const Filter = ({ filter, onChange }) => {
   return (
     <div>
       <label>Filter contacts by name:</label>
